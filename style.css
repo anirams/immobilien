@@ -1,0 +1,110 @@
+h1, h2, p, label {
+	color: #565656;
+}
+/*----- header -------*/
+
+#logo {
+	padding: 2em;
+}
+.logo {
+
+}
+.mm {
+	color: #6ed3cf;
+}
+
+.mynavigation, .myfooter {
+	background-color: #e6ecec;
+}
+
+.active {
+	border-bottom: 2px solid #6ed3cf;
+}
+
+.mobile-nav, .mobile-menu {
+	display: none;
+}
+/*------menu on mobile screen ------- */
+@media only screen and (max-width: 700px) {
+    
+    .mynavigation{
+    	display: none;
+    }
+
+    .mobile-menu {
+    	background-color: #e6ecec;
+    	cursor: pointer;
+    	display: block;
+    	padding: 10px;
+    }
+
+    .mobile-menu:hover {
+    	opacity: 0.5;
+    }
+}
+
+/* ------SLIDER-----*/
+
+#demo {
+	width: 100%;
+	margin: 0 auto 20px auto;
+	height:69%;
+}
+.div-construction {
+	padding: 2em;
+}
+.div-construction p, .div-construction img {
+	padding: 15px;
+}
+.img-construction {
+	height: 300px;
+	width: 300px;
+	border-radius: 50%;
+}
+
+.footer-span {
+	padding-bottom: 10px;
+	display: block;
+}
+
+.carousel-item {
+	height: 75vh;
+}
+
+.container-fluid {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.hr-down {
+
+	color: #0056b3;
+	width:50%;
+}
+/* ----- Immobilienseite ------ */
+
+.immobilienseite {
+	padding: 30px 0;
+}
+
+/* ----- Uber uns seite ------- */
+
+.uber-uns {
+	padding: 30px;
+}
+
+
+/* ------ Kontakt seite ----- */
+
+.contact-container {
+	padding: 30px;
+}
+.contact-container label {
+	width: 100%;
+}
+.error {
+	color: red;
+} 
+.text-kontaktieren {
+	background-color: #e6ecec;
+	padding: 20px;
+}
